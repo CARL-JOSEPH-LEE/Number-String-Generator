@@ -1,7 +1,21 @@
 
 # Number String Generator
 
-## Introduction
+![封面图](images/main.png)
+
+
+## Table of Contents
+
+-   [Overview](#overview)
+-   [Features](#features)
+-   [Usage](#usage)
+-   [Installation](#installation)
+-   [Requirements](#requirements)
+-   [Contribution](#contribution)
+-   [License](#license)
+-   [Acknowledgements](#acknowledgements)
+
+## Overview
 
 The Number String Generator is a simple Python application that uses the Tkinter library to create a graphical user interface. It allows users to generate a random string of numbers with a specified degree of "chaos". Users can set the length of the string, the degree of chaos (Chaos Degree), and the probability of newlines to generate a random number string according to specific rules.
 
@@ -11,10 +25,6 @@ The Number String Generator is a simple Python application that uses the Tkinter
 -   **Chaos Degree Setting**: Users can set the probability of numbers changing during generation. The higher the chaos degree, the more frequently the numbers change.
 -   **Newline Probability Setting**: Users can set the probability of newlines appearing during string generation.
 -   **Display Results**: The generated string is displayed in a scrollable text area for easy viewing.
-
-## Screenshot
-
-Here's how the application looks: ![Main](images/main.png)
 
 ## Usage
 
@@ -43,10 +53,6 @@ Install the dependency:
 -   `Number String Generator.py`: The main program file containing the GUI and string generation logic.
 -   `LICENSE.txt`: The MIT license file outlining the terms of use for the software.
 
-## License
-
-This project is licensed under the MIT License. For more details, refer to the `LICENSE.txt` file.
-
 ## Requirements
 
 `tkinter` 
@@ -55,6 +61,24 @@ Ensure that your Python environment has the `tkinter` library installed. You can
 
 `pip install tk` 
 
-## Contributing
+## Contribution
 
 Contributions to this project are welcome. You can contribute by submitting pull requests with your code improvements or by reporting issues and suggestions in the issue tracker.
+
+## License
+
+This project is licensed under the MIT License. For more details, refer to the `LICENSE.txt` file.
+
+## Acknowledgements
+
+-   The [Tkinter](https://docs.python.org/3/library/tkinter.html) library for creating the graphical user interface.
+-   The [ttk](https://docs.python.org/3/library/tkinter.ttk.html) module for styling the GUI components.
+-   The [random](https://docs.python.org/3/library/random.html) module for generating random numbers and simulating randomness in the number string.
+-   The [ScrolledText](https://docs.python.org/3/library/tkinter.scrolledtext.html) widget from Tkinter for displaying the generated output in a scrollable text area.
+
+
+[![CARL-JOSEPH-LEE's GitHub stats](https://github-readme-stats.vercel.app/api?username=CARL-JOSEPH-LEE&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=CARL-JOSEPH-LEE&theme=dark)](https://git.io/streak-stats)
+
+![Profile views](https://komarev.com/ghpvc/?username=CARL-JOSEPH-LEE&color=blue)
